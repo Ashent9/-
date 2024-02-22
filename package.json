@@ -1,7 +1,7 @@
 {
    "name": "ashent-Md",
    "version": "1.2.8-api",
-   "description": "Multi device whatsapp bot developed by GiftedTech.",
+   "description": "Multi device whatsapp bot developed by AshentTech.",
    "main": "lib/client.js",
    "type": "commonjs",
    "engines" : { "node": "v18.16.0", "npm": "9.5.1" },
