@@ -7,24 +7,24 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="admin@giftedtechnexus.co.ke"
-global.location="Eldoret,Kenya."
+global.email ="ashenttech@gmail.com"
+global.location="Harare, Zimbabwe."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
-global.github=process.env.GITHUB|| "https://github.com/Giftedmaurice/gifted-bot-md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/54efddccf41281ad7ec51.jpg" ; // SET LOGO FOR IMAGE 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Harare";
+global.github=process.env.GITHUB|| "https://github.com/Ashent9/ashent-bot-Md";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaKQJ1A8F2pAAKP6Ms3Q";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaKQJ1A8F2pAAKP6Ms3Q" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/04d4ab38a742d78a05e6c.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "254728782591" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "admin";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263719916507";
 
 
 
@@ -59,17 +59,17 @@ global.scan = "https://qr-scan.giftedtechnexus.co.ke/";
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Gifted Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Ashenttech Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "©²⁰²⁴ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"),
+  caption : process.env.CAPTION || "©²⁰²⁴ ᴀsʜᴇɴᴛ ʙᴏᴛ ᴍᴅ" , // ```『 ᴀsʜᴇɴᴛᴛᴇᴄʜ ʙʏ ᴀsʜᴇɴᴛ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ᴀsʜᴇɴᴛ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaKQJ1A8F2pAAKP6Ms3Q"),
  
-  author : process.env.PACK_AUTHER|| "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+  author : process.env.PACK_AUTHER|| "ᴀsʜᴇɴᴛ ᴛᴇᴄʜ",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  ownername:process.env.OWNER_NAME|| "It's GiftedTech",
+  botname : process.env.BOT_NAME  || " ᴀsʜᴇɴᴛ ᴛᴇᴄʜ",
+  ownername:process.env.OWNER_NAME|| "It's AshentTech",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
@@ -85,7 +85,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "GIFTED",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "ASHENT",
 
 
 
